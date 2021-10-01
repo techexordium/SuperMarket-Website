@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SuperMarket</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Header.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<!--Nav Start-->
+
+	<div class="container-fluid">
+      <div class="header_main"id="header_main">
+      	 <div class="row">
+      	 	<div class="col-sm-3">
+      	 		 <div class="header_search">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                   <input type="text" name="text" placeholder="Search">
+            </div>
+      	 	</div>
+      	 	<div class="col-sm-6 logo_img">
+               <img src="" alt="ZANGO">
+      	 	</div>
+      	 	<div class="col-sm-3 side_icon">
+                <div class="account">
+                 <span>Customer Insights</span>
+                 <i class="fa fa-user-o" aria-hidden="true"></i>
+                </div>
+
+
+      	 	</div>
+      	 </div>
+         <div class="bottom_border mt-3"></div>
+
+      <div class="row main_menu pt-5">
+        <div class="main_list">
+          <a href="#">HOME</a>
+          <a href="#">PRODUCTS</a>
+          <a href="#">STORES</a>
+          <a href="#">ABOUT US</a>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="mobile_view">
+            <div class="row">
+              <div class="col-6 mobile_img">
+               <img src="" alt="ZANGO">
+            </div>
+
+            <div class="col-6">
+            <div class="hamburger_icon" onclick="open_sidebar()">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            </div>
+
+            </div>
+            <div class="sidebar" id="sidebar">
+              <i class="fa fa-times" aria-hidden="true" onclick="close_sidebar()"></i>
+                <div class="mobile_list">
+                  <a href="#">HOME</a>
+                  <a href="#">PRODUCTS</a>
+                  <a href="#">STORES</a>
+                  <a href="#">ABOUT US</a>
+                  <div class="mobile_header_search">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                   <input type="text" name="text" placeholder="Search">
+                 </div>
+               </div>
+
+               <div class="mobile_icon">
+                <div class="mobile_account">
+                 <i class="fa fa-user-o" aria-hidden="true"></i>
+                 <span>Account</span>
+                </div>
+
+                <div class="mobile_cart">
+                 <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                 <span>Cart</span>
+                </div>
+             </div>
+            </div>
+      </div>
+
+      <!--Nav End-->
+
+      <header>
+        <div class="search-desktop">
+            <form action="#">
+                <input type="text"
+                    placeholder=" Search ..."
+                    name="search">
+                <button>
+                    <i class="fa fa-search"
+                        style="font-size: 18px;">
+                    </i>
+                </button>
+            </form>
+            <form>
+                <select name="dropdown" class="select-2">
+                    <option value="1">Shop by Category</option>
+                    <option value="2">Body & Hair</option>
+                    <option value="3">Groceries</option>
+                    <option value="4">Beverages</option>
+                    <option value="5">Fruits & Vegetables</option>
+                </select>
+            </form>
+        </div>
+      </header>
+
+
+      <img class="background_image" src="images/Screenshot (3).png" alt="">
+         <a class="button" href="#popup1">
+           <img class="add_products" src="images/add_products.png.jpg" alt="">
+         </a>
+       <div id="popup1" class="overlay">
+         <div class="popup">
+           <a class="close" href="#">&times;</a>
+           <img class="add_images" src="images/add_images.png.jpg" alt="">
+           <h1>Product Details</h1>
+           <input type="text" class="product_name" placeholder="Enter Product Name">
+           <hr>
+           <label class="category" for="category">Category</label>
+           <select name="Category" class="category">
+             <option value="1">Category</option>
+             <option value="3">Groceries</option>
+             <option value="2">Body & Hair</option>
+             <option value="4">Beverages</option>
+             <option value="5">Fruits & Vegetables</option>
+           </select>
+           <label class="mrp" for="MRP">MRP</label>
+           <input class="mrp" placeholder="Original Price" type="text">
+           <label class="discount" for="discount">Discount Price</label>
+           <input class="discount" placeholder="Discounted Price" type="text">
+           <label class="description" for="description">Description</label>
+           <textarea name="description" placeholder="Write about your product here" class="description" id="" cols="30" rows="8"></textarea>
+           <button class="update"><p class="update_text">UPDATE</p></button>
+         </div>
+       </div>
+
+
+
+
+
+
+
+     </div>
+     <script type="text/javascript" src="Header.js"></script>
+</body>
+</html>

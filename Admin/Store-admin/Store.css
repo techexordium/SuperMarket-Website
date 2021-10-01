@@ -1,0 +1,77 @@
+.map_icon,.map_icon i
+{
+  color: green;
+  font-size: 30px;
+}
+
+.main_heading
+{
+  position: relative;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+.sub_heading
+{
+	padding:15px;
+	color: grey;
+	margin-left: 10%;
+}
+.checker_for_border
+{
+	border-bottom: 1px solid black;
+	display: none;
+}
+.border1
+{
+	border-bottom: 1px solid black;	
+}
+.arrange
+{
+	justify-content: space-around;
+}
+.center_search
+{
+	display: flex;
+	justify-content: center;
+}
+.mobile_header_search_for_store
+{
+	position: relative;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgrey;
+	height: 40px;
+	width:80%;
+	border-radius: 15px;
+	display: none;
+}
+.mobile_header_search_for_store i
+{
+	position: relative;
+	padding: 7px;
+	padding-right: 20px;
+	padding-top: 10px;
+	font-size: 19px;
+	color: grey;
+}
+.mobile_header_search_for_store input
+{
+	width:40%;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	padding: 7px;
+	padding-left: 20px;
+}
+@media screen and (max-width: 650px)
+{
+	.checker_for_border
+	{
+		display: block;
+	}
+    .mobile_header_search_for_store
+    {
+    	display: block;
+    }
+}

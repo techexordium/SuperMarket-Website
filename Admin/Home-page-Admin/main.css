@@ -1,0 +1,203 @@
+/*ADDRESS PAGE*/
+
+.block{
+	position: relative;
+	width: 400px;
+	height: 100px;
+	left: 50px;
+	margin: 20px auto;
+	color: #000;
+	font-size: 20px;
+}
+
+.block .address1{
+	color: #000;
+}
+
+.block .payment1{
+	position: relative;
+	left: 248px;
+	top: -45px;
+	color: darkgray;
+}
+
+.block .btn1{
+	position: relative;
+	top: -45px;
+	left: 20px;
+	border-radius: 50%;
+	font-weight: bold;
+}
+
+.block .line{
+	position: relative;
+	top: -80px;
+	color: #08bb30;
+	width: 214px;
+	left: -38px;
+	border: solid;
+	border-width: thin;
+}
+
+.block .btn2{
+	position: relative;
+	top: -118px;
+	left: 270px;
+	font-weight: bold;
+	border-radius: 50%;
+}
+
+/*PAYMENT PAGE*/
+
+.block .address2{
+	color: darkgray;
+}
+
+.block .payment2{
+	position: relative;
+	left: 248px;
+	top: -45px;
+	color: #000;
+}
+
+/*Address form*/
+
+.address-form{
+	position: relative;
+	width: 500px;
+	margin: 20px auto;
+	color: #000;
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+.address-form .btn-primary{
+	position: relative;
+	left: 160px;
+	margin-top: 30px;
+	border: solid;
+	padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 50px;
+	color: #08bb30;
+	background-color: transparent;
+	border: 2px solid #08bb30;
+}
+
+.address-form .btn-primary:hover{
+	color: rgba(8,187,48,0.9);
+	background-color: transparent;
+	border: 2px solid rgba(8,187,48,0.9);	
+}
+
+.form-control{
+	width: 542px;
+	height: 72px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: Roboto;
+	box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.15);
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+/*Payment form*/
+
+.payment-form{
+	position: relative;
+	width: 500px;
+	margin: 20px auto;
+	color: #000;
+	font-size: 20px;
+	font-family: Roboto;
+}
+
+.payment-form .btn{
+	position: relative;
+	left: 160px;
+	margin-top: 30px;
+	border: solid;
+	padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+.payment-form .btn-primary{
+	color: #08bb30;
+	background-color: transparent;
+	border: 2px solid #08bb30;
+}
+
+.payment-form .btn-primary:hover{
+	color: rgba(8,187,48,0.9);
+	background-color: transparent;
+	border: 2px solid rgba(8,187,48,0.9);
+}
+
+.payment-form .btn-success{
+	color: #fff;
+	background: linear-gradient(180deg, #3EFF68 0%, #08BB30 100%);
+}
+
+.payment-form .btn-success:hover{
+	background: rgba(8,187,48,0.9);
+	box-shadow: inset 0px -4px 25px rgba(255,255,255,0.25), inset 0px 4px 20px rgba(0,0,0,0.25);
+}
+
+.form-check-input{
+	width: 16px;
+	height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 650px)
+{
+	.address-form{
+		position: relative;
+		width: 300px;
+		margin: 5px auto;
+		left: -20px;
+	}
+	
+	.form-control{
+		width: 380px;
+		height: 60px;
+	}
+
+	.address-form .btn{
+		position: relative;
+		margin-top: 20px;
+		left: 100px;
+		width: 160px;
+	}
+
+	.payment-form{
+		position: relative;
+		width: 300px;
+		margin: 5px auto;
+		left: -20px;
+	}
+
+	.payment-form .btn{
+		position: relative;
+		margin-top: 20px;
+		left: 100px;
+		width: 160px;
+		font-size: 16px;
+	}
+}

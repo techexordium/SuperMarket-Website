@@ -1,0 +1,136 @@
+.map_icon,.map_icon i
+{
+  color: green;
+  font-size: 30px;
+}
+
+.main_heading
+{
+  position: relative;
+  margin-left: 20px;
+  font-weight: bolder;
+}
+.sub_heading
+{
+	padding:15px;
+	color: grey;
+	margin-left: 10%;
+}
+.checker_for_border
+{
+	border-bottom: 1px solid black;
+	position: absolute;
+	bottom: -23px;
+	left: 0;
+	margin-bottom: 10px;
+	display: none;
+}
+.border1
+{
+	border-bottom: 1px solid black;
+	position: absolute;
+	bottom: -23px;
+	left: 0;
+	margin-bottom: 10px;
+}
+.arrange
+{
+	justify-content: space-around;
+}
+.center_search
+{
+	display: flex;
+	justify-content: center;
+}
+.mobile_header_search_for_store
+{
+	position: relative;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	background-color: lightgrey;
+	height: 40px;
+	width:80%;
+	border-radius: 15px;
+	display: none;
+}
+.mobile_header_search_for_store i
+{
+	position: relative;
+	padding: 7px;
+	padding-right: 20px;
+	padding-top: 10px;
+	font-size: 19px;
+	color: grey;
+}
+.mobile_header_search_for_store input
+{
+	width:40%;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	padding: 7px;
+	padding-left: 20px;
+}
+@media screen and (max-width: 650px)
+{
+	  .container
+	  {
+	  	padding: 50px;
+	  	padding-top: 10px;
+	  }
+	  .checker_for_border
+	 { 
+		display: block;
+	 }
+    .mobile_header_search_for_store
+    {
+    	display: block;
+    }
+}
+.col-sm-5:after
+{
+	 font-family: "Font Awesome 5 Free";
+	content: '\f044';
+	font-size: 20px;
+	position: absolute;
+	top: 6px;
+	z-index: 1000;
+	border: 1px solid black;
+	border-left: none;
+	border-radius: 3px;
+  right: -17px;
+}
+.col-sm-5:before
+{
+   font-family: "Font Awesome 5 Free";
+	content: '\f044';
+	font-size: 20px;
+	position: absolute;
+	top: 60px;
+	z-index: 1000;
+	border: 1px solid black;
+	border-left: none;
+	border-radius: 3px;
+  right: -17px;
+}
+.button_add
+{
+	min-width: 250px;
+	padding: 20px;
+	border-radius:7px;
+	padding-bottom: 13px;
+}
+.add_item
+{
+	font-size: 25px;
+ display: flex;
+ position: relative;
+ align-items: center;
+ justify-content: space-evenly;
+}
+.add_item i
+{
+	margin-top: 10px;
+	font-size: 30px;
+}

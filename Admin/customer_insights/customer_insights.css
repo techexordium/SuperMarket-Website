@@ -1,0 +1,264 @@
+  /*Header*/
+
+  body
+  {
+     
+     overflow-x: scroll;
+  }
+  .header_main
+  {
+      padding: 20px;
+  }
+  .header_search
+  {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      background-color: lightgrey;
+      height: 40px;
+      border-radius: 15px;
+  }
+  .header_search input
+  {
+      width:70%;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      padding-left: 7px;
+  }
+  .mobile_header_search
+  {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      background-color: lightgrey;
+      height: 40px;
+      margin-left:23px;
+      width:80%;
+      border-radius: 15px;
+  }
+  .mobile_header_search input
+  {
+      width:40%;
+      outline: none;
+      border: none;
+      background-color: transparent;
+      padding-left: 7px;
+  }
+  
+  .logo_img
+  {
+      text-align: center;
+      align-self: center;
+  }
+  .side_icon
+  {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  
+  .side_icon i 
+  {
+      font-size: 20px;
+  }
+  .account span
+  {
+     padding-left: 4px;
+     color:grey;
+  }
+  .cart span
+  {
+    color: rgb(33, 165, 33);
+}
+  .cart
+  {
+      text-align: center;
+      position: relative;
+      margin-left: 20px;
+      margin-right: 15px;
+      color: rgb(33, 165, 33);
+  }
+  .account i , .cart i
+  {
+      margin-left: 10px;
+  }
+  .bottom_border
+  {
+      border-bottom: 1px solid lightgrey;
+      width: 100vw;
+      position: absolute;
+      left: 0;
+  }
+  .main_menu
+  {
+      display: flex;
+      justify-content: center;
+  }
+  .main_list a
+  {
+      color: black;
+      padding:0px 19px;
+  }
+  .main_list a:hover
+  {
+      text-decoration: none;
+      color: green;
+  }
+  .mobile_view
+  {
+      display: none;
+  }
+  
+  .hamburger_icon i
+  {
+      font-size: 30px;
+  }
+  .mobile_img
+  {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  .hamburger_icon
+  {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+  }
+  .sidebar
+  {
+      position: absolute;
+      top: 0;
+      right:-40%;
+      width: 40%;
+      height: 100%;
+      background-color: grey;
+      transition: all 0.8s linear;
+      
+  }
+  .sidebar i
+  {
+      font-size: 25px;
+      padding:10px;
+      color: white;
+  }
+  .sidebar a
+  {
+      display: block;
+      color: white;
+      font-size: 20px;
+      padding:20px;
+      padding-left: 30px;
+      text-decoration: none; 
+  }
+  .sidebar a:hover
+  {
+      color: green;
+  }
+  .mobile_icon
+  {
+      position: absolute;
+      bottom: 5px;
+  }
+   
+  .mobile_account ,.mobile_cart
+  {
+      padding-left: 30px;
+      color: white;
+  }
+  @media screen and (max-width: 992px)
+  {
+    .account,.cart 
+    {
+      text-align: center;
+    }
+    .account i , .cart i
+    {
+      margin-left: 5px;
+    }
+  }
+  @media screen and (max-width: 650px)
+  {
+      .header_main
+      {
+          display: none;
+      }
+      .mobile_view
+      {
+          display: block;
+          padding:20px;
+      }
+  }
+.table table {
+    width: 90%;
+    /*border-spacing: 40px;*/
+    
+    
+}
+.table th, caption {
+    text-align: left;
+}
+.table table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table td, th {
+    border: 2px solid black;
+    padding: 10px;
+
+}
+.table th,td,tr {
+    width: 80px ;
+
+}
+.table th, td {
+    padding: 10px;
+}
+.table tr {
+    border: 2px solid black;
+
+}
+.table  th{
+    font-size: 20px;
+    font-weight: 500;
+}
+.table {
+    align-items: center;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.product {
+    border-left: 0px;
+}
+.customer h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 400;
+
+}
+.more {
+    text-align: center;
+    font-size: 50px;
+
+}
+.more .btn{
+    margin: 1.8rem;
+    color: white;
+    border: 1px solid white;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    
+}
+
+.more .btn:hover{
+    background: transparent;
+    border: 1px solid gray;
+    color: grey;
+}

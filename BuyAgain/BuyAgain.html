@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SuperMarket</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Header.css">
+</head>
+<body>
+	<div class="container-fluid">
+      <div class="header_main"id="header_main">
+      	 <div class="row">
+      	 	<div class="col-sm-3">
+      	 		 <div class="header_search">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                   <input type="text" name="text" placeholder="Search"> 
+            </div>
+      	 	</div>
+      	 	<div class="col-sm-6 logo_img">
+               <img src="" alt="ZANGO">
+      	 	</div>
+      	 	<div class="col-sm-3 side_icon">
+                <div class="account">
+                  <a href="../Account/Account.html">
+                  <span>Account</span>
+                  <i class="fa fa-user-o" aria-hidden="true" style="color: #000;"></i>
+                  </a>
+                </div>
+
+                <div class="cart">
+                  <a href="../Cart/cart_with_items/index.html">
+                  <span>Cart</span>
+                  <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #000;"></i>
+                  </a>
+                </div>
+      	 	</div>	
+      	 </div>
+         <div class="bottom_border mt-3"></div>
+
+      <div class="row main_menu pt-5">
+        <div class="main_list">
+          <a href="../Home/Homepage.html">HOME</a>
+          <a href="../Product-page/index.html">PRODUCTS</a>
+          <a href="../Stores/Store.html">STORES</a>
+          <a href="../AboutUs/Aboutus.html">ABOUT US</a>
+        </div>
+      </div>
+      
+      </div>
+     
+      <div class="mobile_view">
+            <div class="row">
+              <div class="col-6 mobile_img">
+               <img src="" alt="ZANGO">
+            </div>
+
+            <div class="col-6">
+            <div class="hamburger_icon" onclick="open_sidebar()">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            </div>
+
+            </div>
+            <div class="sidebar" id="sidebar">
+              <i class="fa fa-times" aria-hidden="true" onclick="close_sidebar()"></i>
+                <div class="mobile_list">
+                  <a href="../Home/Homepage.html">HOME</a>
+                  <a href="../Product-page/index.html">PRODUCTS</a>
+                  <a href="../Stores/Store.html">STORES</a>
+                  <a href="../AboutUs/Aboutus.html">ABOUT US</a>
+                  <div class="mobile_header_search">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                   <input type="text" name="text" placeholder="Search"> 
+                 </div>
+               </div>
+
+               <div class="mobile_icon">
+                <div class="mobile_account">
+                  <a href="../Account/Account.html">
+                  <i class="fa fa-user-o" aria-hidden="true" style="color: #fff;"></i>
+                  <span>Account</span>
+                  </a>
+                </div>
+
+                <div class="mobile_cart">
+                  <a href="../Cart/cart_with_items/index.html">
+                  <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #fff;"></i>
+                  <span>Cart</span>
+                  </a>
+                </div>
+             </div>  
+            </div>
+      </div><br><br>
+	  
+	  
+	  
+	  	  
+	  
+	  
+	  
+	  
+	  
+
+     </div> 
+	 <div class="yourorder"> YOUR ORDERS </div>
+	 
+	 
+	 
+	 <div class="card" style="width: 18rem;", "height: 20rem;">
+  <img class="card-img-top" src="images/sm1.jpg"  height="250" width="200" alt="Card image cap">
+  
+  
+  <div class="card-body">
+    <div class="txt1">BROCOLI</div>
+  <div class="txt2">Rs 100.00</div>
+  <div class="txt3">100g brocoli</div><br>
+    <a href="#" class="btn1">SHOP NOW</a><br><br>
+	<a href="#" class="btn2">LEAVE FEEDBACK</a>
+  </div>
+</div>
+
+
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="images/sm1.jpg" height="250" width="200" alt="Card image cap">
+  <div class="card-body">
+    <div class="txt1">BROCOLI</div>
+  <div class="txt2">Rs 100.00</div>
+  <div class="txt3">100g brocoli</div><br>
+    <a href="#" class="btn1">SHOP NOW</a><br><br>
+	<a href="#" class="btn2">LEAVE FEEDBACK</a>
+  </div>
+</div>
+
+
+<div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="images/sm1.jpg"  height="250" width="200" alt="Card image cap">
+  <div class="card-body">
+    <div class="txt1">BROCOLI</div>
+  <div class="txt2">Rs 100.00</div>
+  <div class="txt3">100g brocoli</div><br>
+    <a href="#" class="btn1">SHOP NOW</a><br><br>
+	<a href="#" class="btn2">LEAVE FEEDBACK</a>
+  </div>
+</div>
+     <script type="text/javascript" src="Header.js"></script>
+</body>
+</html>
