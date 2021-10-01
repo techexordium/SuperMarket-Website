@@ -1,0 +1,163 @@
+/*Account.html*/
+.heading{
+	margin: 20px;
+	padding: 10px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.order{
+	position: relative;
+	width: 450px;
+	height: 150px;
+	padding: 20px;
+	margin: 20px auto;
+	border: 2px solid grey;
+	border-radius: 10px;
+}
+
+.content img{
+	margin: 10px;
+	width: 90px;
+	height: 90px;
+}
+
+.content h3{
+	position: absolute;
+	left: 170px;
+	top: 30px;
+}
+
+.content p{
+	position: absolute;
+	color: grey;
+	left: 170px;
+	top: 80px;
+	font-size: 20px;
+}
+
+.address{
+	position: relative;
+	width: 450px;
+	height: 150px;
+	padding: 20px;
+	margin: 20px auto;
+	border: 2px solid grey;
+	border-radius: 10px;
+}
+
+
+/*Address.html*/
+.youraddress{
+	position: relative;
+	width: 380px;
+	height: 280px;
+	padding: 20px;
+	margin: 20px auto;
+	border: 2px solid grey;
+	border-radius: 10px;
+}
+
+.youraddress p{
+	margin-top: 10px;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.youraddress .edit{
+	margin-top: 40px;
+	color: lightseagreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Addressform.html*/
+
+.address-form{
+	position: relative;
+	width: 500px;
+	margin: 20px auto;
+	color: #000;
+	font-size: 20px;
+	font-family: Roboto;
+	margin-top: 30px;
+}
+
+.address-form .btn-primary{
+	position: relative;
+	left: 160px;
+	margin-top: 30px;
+	border: solid;
+	padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    width: 200px;
+    border-radius: 50px;
+	color: #08bb30;
+	background-color: transparent;
+	border: 2px solid #08bb30;
+}
+
+.address-form .btn-primary:hover{
+	color: rgba(8,187,48,0.9);
+	background-color: transparent;
+	border: 2px solid rgba(8,187,48,0.9);	
+}
+
+.form-control{
+	width: 542px;
+	height: 72px;
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	font-size: 20px;
+	font-family: Roboto;
+	box-shadow: inset 0px 2px 10px rgba(0, 0, 0, 0.15);
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.form-check-input{
+	width: 16px;
+	height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 650px)
+{
+	.address-form{
+		position: relative;
+		width: 300px;
+		margin: 5px auto;
+		left: -20px;
+	}
+	
+	.form-control{
+		width: 380px;
+		height: 60px;
+	}
+
+	.address-form .btn{
+		position: relative;
+		margin-top: 20px;
+		left: 100px;
+		width: 160px;
+	}
+}
