@@ -1,0 +1,326 @@
+
+
+   /*Header*/
+
+   body
+   {
+      
+      overflow-x: scroll;
+   }
+   .header_main
+   {
+       padding: 20px;
+   }
+   .header_search
+   {
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       background-color: lightgrey;
+       height: 40px;
+       border-radius: 15px;
+   }
+   .header_search input
+   {
+       width:70%;
+       outline: none;
+       border: none;
+       background-color: transparent;
+       padding-left: 7px;
+   }
+   .mobile_header_search
+   {
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       background-color: lightgrey;
+       height: 40px;
+       margin-left:23px;
+       width:80%;
+       border-radius: 15px;
+   }
+   .mobile_header_search input
+   {
+       width:40%;
+       outline: none;
+       border: none;
+       background-color: transparent;
+       padding-left: 7px;
+   }
+   
+   .logo_img
+   {
+       text-align: center;
+       align-self: center;
+   }
+   .side_icon
+   {
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+   }
+   
+   .side_icon i 
+   {
+       font-size: 20px;
+   }
+   .account span
+   {
+      padding-left: 4px;
+      color:grey;
+   }
+   .cart span
+   {
+       color: grey;
+   }
+   .cart
+   {
+       text-align: center;
+       position: relative;
+       margin-left: 20px;
+       margin-right: 15px;
+   }
+   .account i , .cart i
+   {
+       margin-left: 10px;
+   }
+   .bottom_border
+   {
+       border-bottom: 1px solid lightgrey;
+       width: 100vw;
+       position: absolute;
+       left: 0;
+   }
+   .main_menu
+   {
+       display: flex;
+       justify-content: center;
+   }
+   .main_list a
+   {
+       color: black;
+       padding:0px 19px;
+   }
+   .main_list a:hover
+   {
+       text-decoration: none;
+       color: green;
+   }
+   .mobile_view
+   {
+       display: none;
+   }
+   
+   .hamburger_icon i
+   {
+       font-size: 30px;
+   }
+   .mobile_img
+   {
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+   }
+   .hamburger_icon
+   {
+       display: flex;
+       justify-content: flex-end;
+       align-items: center;
+   }
+   .sidebar
+   {
+       position: absolute;
+       top: 0;
+       right:-60%;
+       width: 60%;
+       height: 100%;
+       background-color: grey;
+       transition: all 0.8s linear;
+       
+   }
+   .sidebar i
+   {
+       font-size: 25px;
+       padding:10px;
+       color: white;
+   }
+   .sidebar a
+   {
+       display: block;
+       color: white;
+       font-size: 20px;
+       padding:20px;
+       padding-left: 30px;
+       text-decoration: none; 
+   }
+   .sidebar a:hover
+   {
+       color: green;
+   }
+   .mobile_icon
+   {
+       position: absolute;
+       bottom: 5px;
+   }
+    
+   .mobile_account ,.mobile_cart
+   {
+       padding-left: 30px;
+       color: white;
+   }
+   @media screen and (max-width: 992px)
+   {
+     .account,.cart 
+     {
+       text-align: center;
+     }
+     .account i , .cart i
+     {
+       margin-left: 5px;
+     }
+   }
+   @media screen and (max-width: 650px)
+   {
+       .header_main
+       {
+           display: none;
+       }
+       .mobile_view
+       {
+           display: block;
+           padding:20px;
+       }
+   }
+.altimage{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    margin-bottom: 200px;
+
+}
+
+.altimage .post-content .post-title{
+    width: 300px;
+    margin-top: 30px;
+    margin-right: 0 !important;
+    margin-left: 130px;
+    
+}  
+.altimage .post-content .post-title p{
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.altimage .post-content .post-title a{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(29, 9, 48);
+    margin-top: 100px;
+
+}
+.altimage .post-content2 .post-title2{
+    width: 300px;
+    margin-left: 70px;
+    margin-top: 70px;
+    
+}  
+.altimage .post-content2 .post-title2 p{
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+.altimage .post-content2 .post-title2 a{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(29, 9, 48);
+}
+.post-content .post-image .img{
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 130px;
+    border-radius: 20px;
+
+} 
+ 
+.post-content2 .post-image2 .img{
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 20px;
+
+} 
+button.button {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    background: linear-gradient(180deg, #3EFF68 0%, #08BB30 100%);
+    border-radius: 50px;
+    position: absolute;
+    width: 145px;
+    height: 46px;
+    margin-left: 70px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:650px){
+    .post-content .post-image .img{
+        width: 400px;
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        border-radius: 20px;
+    
+    } 
+    .altimage .post-content .post-title{
+    width: 80%;
+    margin: 0;
+    line-height: 30px;
+    
+    
+    
+    } 
+    .post-content{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    .post-content2 .post-image2 .img{
+        width: 400px;
+        margin: 0 ;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+        border-radius: 20px;
+    
+    } 
+    .altimage .post-content2 .post-title2{
+    width: 80%;
+    margin: 0;
+    line-height: 30px;
+
+    
+    
+    
+    } 
+    .post-content2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    
+    button.button {
+        margin-left: 120px;
+    }
+}
+

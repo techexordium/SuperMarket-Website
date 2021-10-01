@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+	<title>SuperMarket</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="about.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/fontawesome.min.css" integrity="sha512-OdEXQYCOldjqUEsuMKsZRj93Ht23QRlhIb8E/X0sbwZhme8eUw6g8q7AdxGJKakcBbv7+/PX0Gc2btf7Ru8cZA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/brands.min.css" integrity="sha512-apX8rFN/KxJW8rniQbkvzrshQ3KvyEH+4szT3Sno5svdr6E/CP0QE862yEeLBMUnCqLko8QaugGkzvWS7uNfFQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+
+
+  </head>
+<body>
+  
+	<div class="container-fluid">
+      <div class="header_main"id="header_main">
+      	 <div class="row">
+      	 	<div class="col-sm-3">
+      	 		 <div class="header_search">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                   <input type="text" name="text" placeholder="Search"> 
+            </div>
+      	 	</div>
+      	 	<div class="col-sm-6 logo_img">
+               <img src="" alt="ZANGO">
+      	 	</div>
+      	 	<div class="col-sm-3 side_icon">
+                <div class="account">
+                  <a href="../Account/Account.html">
+                  <span>Account</span>
+                  <i class="fas fa-user-alt"aria-hidden="true" style="color: #000"></i>
+                  </a>
+                </div>
+
+                <div class="cart">
+                  <a href="../Cart/cart_with_items/index.html">
+                  <span>Cart</span>
+                  <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #000"></i>
+                  </a>
+                </div>
+      	 	</div>	
+      	 </div>
+         <div class="bottom_border mt-3"></div>
+
+      <div class="row main_menu pt-5">
+        <div class="main_list">
+          <a href="../Home/Homepage.html">HOME</a>
+          <a href="../Product-page/index.html">PRODUCTS</a>
+          <a href="../Stores/Store.html">STORES</a>
+          <a href="./Aboutus.html" style="color: #08bb30"><u style="text-decoration: underline; text-decoration-color: #08bb30; text-decoration-style: solid; text-decoration-thickness: 3px;">ABOUT US</u></a>
+        </div>
+      </div>
+      
+      </div>
+     
+      <div class="mobile_view">
+            <div class="row">
+              <div class="col-6 mobile_img">
+               <img src="" alt="ZANGO">
+            </div>
+
+            <div class="col-6">
+            <div class="hamburger_icon" onclick="open_sidebar()">
+              <i class="fa fa-bars" aria-hidden="true"></i>
+            </div>
+            </div>
+
+            </div>
+            <div class="sidebar" id="sidebar">
+              <i class="fa fa-times" aria-hidden="true" onclick="close_sidebar()"></i>
+                <div class="mobile_list">
+                  <a href="../Home/Homepage.html">HOME</a>
+                  <a href="../Product-page/index.html">PRODUCTS</a>
+                  <a href="../Stores/Store.html">STORES</a>
+                  <a href="./Aboutus.html" style="color: #08bb30;">ABOUT US</a>
+                  <div class="mobile_header_search">
+                   <i class="fa fa-search" aria-hidden="true"></i>
+                   <input type="text" name="text" placeholder="Search"> 
+                 </div>
+               </div>
+
+               <div class="mobile_icon">
+                <div class="mobile_account">
+                  <a href="../Account/Account.html">
+                  <i class="fas fa-user-alt" aria-hidden="true"></i>
+                  <span>Account</span>
+                  </a>
+                </div>
+
+                <div class="mobile_cart">
+                  <a href="../Cart/cart_with_items/index.html">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                  <span>Cart</span>
+                  </a>
+                </div>
+             </div>  
+            </div>
+      </div>
+
+     </div> 
+     <script type="text/javascript" src="Header.js"></script>
+
+     <div class="container altimage">
+       <div class="col1">
+        <div class="post-content">
+          <div class="post-title">
+            <a href="#">No 1 SuperMarket In India</a>
+            <p>Zango is considered to be the best SuperMarket by Indians.We have more than 50,000 products in wide range of categories from fruits & vegetables to the healthy oils . All of our products are 100% authetic .</p>
+          </div>
+          <div class="post-image">
+            <div>
+                <img src="./images/img03.jpeg" class='img' alt="blog01">
+            </div>
+          </div>
+        </div>
+      
+       </div>
+       <div class="col2"></div>
+       <div class="post-content2">
+        <div class="post-image2">
+            <div>
+                <img src="./images/img03.jpeg" class='img' alt="blog01">
+            </div>
+        </div>
+        <div class="post-title2">
+            <a href="#">350 Stores In India </a>
+            <p>We have stores in all the states of India and we have multiple stores in the cities like Chennai , Banglore , Mumbai ,Kolkata ,Delhi.We are planning to launch more stores in upcoming years</p>
+            <p><button class="button">SHOP NOW ></button></p>
+          </div>
+    </div>
+    
+     </div>
+</body>
+</html>
+</html>
+
+
