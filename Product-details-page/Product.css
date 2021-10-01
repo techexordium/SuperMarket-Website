@@ -1,0 +1,227 @@
+
+.product_main
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.images_section
+{
+	position: relative;
+	display: flex;
+	justify-content: flex-end;
+	right: 30px;
+}
+.images_section img
+{
+	height: 60vh;
+}
+.image_group
+{
+	display: flex;
+	flex-direction: column;
+	/*justify-content: center;*/
+	/*margin-bottom: 50%;*/
+}
+.image_group .img_set img
+{
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border:1px solid lightgrey;
+  margin-right:30px;
+  margin-top: 30px;
+}
+
+.about_product
+{
+	position: relative;
+	/*border:1px solid red;*/
+	padding: 35px;
+	width:75%;
+}
+.product_price p
+{
+   font-weight: bolder;
+}
+.product_price strike
+{
+	margin-left: 6px;
+}
+.quantity_border span
+{
+   border:1px solid black;   
+   max-width: 10px;
+   padding: 5px;
+   max-height: 4px;
+   margin-right: 10px;
+   position: relative;
+   top: 10px;
+}
+.buy_buttons
+{
+	display: flex;
+	justify-content:flex-start;
+}
+.btn
+{
+	padding:10px;
+	min-width: 200px;
+}
+.btn-primary,.btn-primary:hover
+{
+	background-color: transparent;
+	color: green;
+	border-radius: 30px;
+	border:1px solid green;
+	margin-left: 24px;
+}
+
+.btn-success
+{
+	color:white;
+	border-radius: 30px;
+	/*border:1px solid green;*/
+	background: linear-gradient(270.65deg, #3EFF68 -4.3%, #08BB30 106.28%);
+}
+.authentic
+{
+	display: flex;
+	clear: both;
+	font-weight: bolder;
+	justify-content: space-between;
+}
+.authentic i
+{
+	padding-right: 10px;
+	font-size: 19px;
+}
+.product_description p
+{
+	text-align: left;
+	color: grey;
+	font-size: 13px;
+}
+
+
+.contain .star-widget input{
+  display: none;
+}
+.star-widget
+{
+	display: flex;
+	flex-direction: row-reverse;
+	float: left;
+}
+.star-widget label{
+  font-size: 20px;
+  color: #444;
+  padding: 3px;
+  transition: all 0.2s ease;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label{
+  color:green;
+}
+input:checked ~ label{
+  color: green;
+}
+input#rate-5:checked ~ label{
+  color:green;
+  text-shadow: 0 0 20px #952;
+}
+
+@media screen and (max-width: 768px)
+{
+    .images_section
+    {
+         right: 0;
+         justify-content: center;
+	}
+	.btn
+	{
+		min-width: 20vw;
+	}
+	.product_price
+	{
+		position: relative;
+		text-align: center;
+	}
+	.image_group
+	{
+	 flex-direction: row;
+	 justify-content: center;
+
+	}
+	
+	.main_image
+	{
+		display: flex;
+		justify-content: center;
+	}
+	.images_section img
+	{
+		height: 40vh;
+	}
+	.image_group .img_set img
+	{
+		margin-right: 10px;
+	}
+	.buy_buttons
+	{
+		justify-content: center;
+	}
+	.authentic
+	{
+		justify-content: space-around;
+		/*padding: 0px 40px;*/
+	}
+	.authentic i
+	{
+		display: block;
+	} 
+	.product_description p
+	{
+        text-align: left;
+	}
+	.contain
+     {
+     	display: flex;
+     	position: relative;
+     	justify-content: center;
+     }
+}
+@media screen and (max-width: 459px)
+{
+    .authentic
+	{
+		justify-content: center;
+		text-align: center;
+	  flex-direction:column;
+	}
+	.authentic i
+	{
+		margin: 0;
+		font-size: 30px;
+		padding: 20px auto;
+		text-align: center;
+	}
+	.authentic div
+	{
+		font-size: 20px;
+	    padding: 20px auto;
+	    margin-bottom: 10px;
+	}
+	.buy_buttons
+	{
+		flex-direction: column;
+	}
+	.btn
+	{
+	 margin: 10px; 
+	 font-weight:bold;
+	}
+	
+}

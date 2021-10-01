@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Header.css">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<div class="container-fluid">
+    <div class="header_main"id="header_main">
+       <div class="row">
+        <div class="col-sm-3">
+           <div class="header_search">
+                 <i class="fa fa-search" aria-hidden="true"></i>
+                 <input type="text" name="text" placeholder="Search">
+          </div>
+        </div>
+        <div class="col-sm-6 logo_img">
+             <img src="" alt="ZANGO">
+        </div>
+        <div class="col-sm-3 side_icon">
+              <div class="account">
+                <a href="../Account/Account.html">
+                <span>Account</span>
+                <i class="fa fa-user-o" aria-hidden="true" style="color: #000;"></i>
+                </a>
+              </div>
+
+              <div class="cart">
+                <a href="../Cart/cart_with_items/index.html">
+                <span>Cart</span>
+                <i class="fa fa-shopping-cart" aria-hidden="true" style="color: #000;"></i>
+                </a>  
+            </div>
+        </div>
+       </div>
+       <div class="bottom_border mt-3"></div>
+
+    <div class="row main_menu pt-5">
+      <div class="main_list">
+        <a href="../Home/Homepage.html">HOME</a>
+        <a href="./index.html" style="color: #08bb30;"><u style="text-decoration: underline; text-decoration-color: #08bb30; text-decoration-style: solid; text-decoration-thickness: 3px;">PRODUCTS</u></a>
+        <a href="../Stores/Store.html">STORES</a>
+        <a href="../AboutUs/Aboutus.html">ABOUT US</a>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="mobile_view">
+          <div class="row">
+            <div class="col-6 mobile_img">
+             <img src="" alt="ZANGO">
+          </div>
+
+          <div class="col-6">
+          <div class="hamburger_icon" onclick="open_sidebar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </div>
+          </div>
+
+          </div>
+          <div class="sidebar" id="sidebar">
+            <i class="fa fa-times" aria-hidden="true" onclick="close_sidebar()"></i>
+              <div class="mobile_list">
+                <a href="../Home/Homepage.html">HOME</a>
+                <a href="./index.html" style="color: #08bb30;">PRODUCTS</a>
+                <a href="../Stores/Store.html">STORES</a>
+                <a href="../AboutUs/Aboutus.html">ABOUT US</a>
+                <div class="mobile_header_search">
+                 <i class="fa fa-search" aria-hidden="true"></i>
+                 <input type="text" name="text" placeholder="Search">
+               </div>
+             </div>
+
+             <div class="mobile_icon">
+              <div class="mobile_account">
+                <a href="../Account/Account.html">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                    <span>Account</span>
+                </a>
+              </div>
+
+              <div class="mobile_cart">
+                <a href="../Cart/cart_with_items/index.html">
+                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                <span>Cart</span>
+                </a>
+              </div>
+           </div>
+          </div>
+    </div>
+
+   </div>
+
+<header>
+    <div class="search-desktop">
+        <form action="#">
+            <input type="text"
+                placeholder=" Search ..."
+                name="search">
+            <button>
+                <i class="fa fa-search"
+                    style="font-size: 18px;">
+                </i>
+            </button>
+        </form>
+        <form>
+            <select name="dropdown" class="select-1">
+                <option value="1">Sort By</option>
+                <option value="2">PRICE : Low to High</option>
+                <option value="3">PRICE : High to Low</option>
+                <option value="4">Best Rated</option>
+                <option value="5">Recently Added</option>
+            </select>
+
+        </form>
+        <form>
+            <select name="dropdown" class="select-2">
+                <option value="1">Shop by Category</option>
+                <option value="2">Body & Hair</option>
+                <option value="3">Groceries</option>
+                <option value="4">Beverages</option>
+                <option value="5">Fruits & Vegetables</option>
+            </select>
+            
+        </form>
+    </div>
+</header>
+
+<div class="search-mobile">
+    <form action="#">
+        <input type="text"
+            placeholder=" Search ..."
+            name="search">
+        <button>
+            <i class="fa fa-search"
+                style="font-size: 18px;">
+            </i>
+        </button>
+    </form>
+    <form>
+        <select name="dropdown" class="select-1-mobile">
+            <option value="1">Sort By</option>
+            <option value="2">Popularity</option>
+            <option value="3">DISCOUNG : High to Low</option>
+            <option value="4">PRICE : High to Low</option>
+            <option value="5">PRICE : Low to High</option>
+            <option value="6">Top Rated</option>
+            <option value="7">New Arrivals</option>
+        </select>
+        <span><i class='bx bx-chevron-down'></i></span>
+    </form>
+    <form>
+        <select name="dropdown" class="select-2-mobile">
+            <option value="1">Category</option>
+            <option value="3">Groceries</option>
+            <option value="2">Body & Hair</option>
+            <option value="4">Beverages</option>
+            <option value="5">Fruits & Vegetables</option>
+        </select>
+        <span><i class='bx bx-chevron-down'></i></span>
+    </form>
+</div>
+
+<body>
+
+    <div class="container">
+
+        <div class="col">
+            <i class='bx bx-heart' style='color:#db1385'  ></i>
+            <img src="images/oats.jpg" alt="">
+            <p class="product">Oats</p>
+            <p class="price">₹120.00</p>
+            <p class="des-product">500g rolled oats</p>
+            <p><a href="../Product-details-page/Product.html"><button class="button">SHOP NOW ></button></a></p>
+
+        </div>
+        <div class="col">
+            <i class='bx bx-heart' style='color:#db1385'  ></i>
+            <img src="images/spinach.jpg" alt="">
+            <p class="product" >Spinach</p>
+            <p class="price">₹20.00</p>
+            <p class="des-product">100g fresh spanish</p>
+            <p><a href="../Product-details-page/Product.html"><button class="button">SHOP NOW ></button></a></p>
+        </div>
+        <div class="col">
+            <i class='bx bx-heart' style='color:#db1385'  ></i>
+            <img src="images/ceral.jpg" alt="">
+            <p class="product">Ceral</p>
+            <p class="price">₹200.00</p>
+            <p class="des-product">1kg Multigrain Cereal</p>
+            <p><a href="../Product-details-page/Product.html"><button class="button">SHOP NOW ></button></a></p>
+        </div>
+        <div class="col">
+            <i class='bx bx-heart' style='color:#db1385'  ></i>
+            <img src="images/broccoli.jfif" alt="">
+            <p class="product">Broccoli</p>
+            <p class="price">₹100.00</p>
+            <p class="des-product">100g Broccoli</p>
+            <p><a href="../Product-details-page/Product.html"><button class="button">SHOP NOW ></button></a></p>
+        </div>
+        <div class="col">
+            <i class='bx bx-heart' style='color:#db1385'  ></i>
+            <img src="images/yogurt.jfif" alt="">
+            <p class="product">Yogurt</p>
+            <p class="price">₹40.00</p>
+            <p class="des-product">40g Greek Yogurt</p>
+            <p><a href="../Product-details-page/Product.html"><button class="button">SHOP NOW ></button></a></p>
+        </div>
+        <div class="col">
+            <i class='bx bx-heart' style='color:#db1385'  ></i>
+            <img src="images/oliveoil.jfif" alt="">
+            <p class="product">Olive Oil</p>
+            <p class="price">₹1000.00</p>
+            <p class="des-product">1L Extra Virgin Olive Oil</p>
+            <p><a href="../Product-details-page/Product.html"><button class="button">SHOP NOW ></button></a></p>
+        </div>
+    </div>
+
+<script src="Header.js" charset="utf-8"></script>
+
+</body>
+</html>

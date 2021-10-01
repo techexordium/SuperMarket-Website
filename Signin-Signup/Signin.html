@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>SuperMarket</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="account.css">
+    <link rel="stylesheet" type="text/css" href="Header.css">
+
+</head>
+<body>
+	<div class="container-fluid">
+			<div class="header_main"id="header_main">
+				 <div class="row">
+					<div class="col-sm-3">
+						 <div class="header_search">
+									 <i class="fa fa-search" aria-hidden="true"></i>
+									 <input type="text" name="text" placeholder="Search">
+						</div>
+					</div>
+					<div class="col-sm-6 logo_img">
+							 <img src="" alt="ZANGO">
+					</div>
+					<div class="col-sm-3 side_icon">
+								<div class="account">
+									<a href="../Account/Account.html">
+									<span>Account</span>
+									<i class="fa fa-user-o" aria-hidden="true" style="color: #000;"></i>
+									</a>
+								</div>
+
+								<div class="cart">
+									<a href="../Cart/cart_with_items/index.html">
+									<span>Cart</span>
+								 	<i class="fa fa-shopping-cart" aria-hidden="true" style="color: #000;"></i>
+									</a>
+								</div>
+					</div>
+				 </div>
+				 <div class="bottom_border mt-3"></div>
+
+			<div class="row main_menu pt-5">
+				<div class="main_list">
+					<a href="../Home/Homepage.html">HOME</a>
+					<a href="../Product-page/index.html">PRODUCTS</a>
+          			<a href="../Stores/Store.html">STORES</a>
+          			<a href="../AboutUs/Aboutus.html">ABOUT US</a>
+				</div>
+			</div>
+
+			</div>
+
+			<div class="mobile_view">
+						<div class="row">
+							<div class="col-6 mobile_img">
+							 <img src="" alt="ZANGO">
+						</div>
+
+						<div class="col-6">
+						<div class="hamburger_icon" onclick="open_sidebar()">
+							<i class="fa fa-bars" aria-hidden="true"></i>
+						</div>
+						</div>
+
+						</div>
+						<div class="sidebar" id="sidebar">
+							<i class="fa fa-times" aria-hidden="true" onclick="close_sidebar()"></i>
+								<div class="mobile_list">
+									<a href="../Home/Homepage.html">HOME</a>
+									<a href="../Product-page/index.html">PRODUCTS</a>
+                  					<a href="../Stores/Store.html">STORES</a>
+                  					<a href="../AboutUs/Aboutus.html">ABOUT US</a>
+									<div class="mobile_header_search">
+									 <i class="fa fa-search" aria-hidden="true"></i>
+									 <input type="text" name="text" placeholder="Search">
+								 </div>
+							 </div>
+
+							 <div class="mobile_icon">
+								<div class="mobile_account">
+									<a href="../Account/Account.html">
+										<i class="fa fa-user-o" aria-hidden="true"></i>
+										<span>Account</span>
+									</a>
+								</div>
+
+								<div class="mobile_cart">
+									<a href="../Cart/cart_with_items/index.html">
+								 	<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								 	<span>Cart</span>
+									</a>
+								</div>
+						 </div>
+						</div>
+			</div>
+
+		 </div>
+
+<!--HEADER ENDS-->
+
+
+<!-- <div class="" style="position:relative;top:0;width:100%;height:100%">
+	<iframe src="Header.html" width="100%" height="180px"></iframe>
+</div> -->
+
+<div class="block" >
+	 <div class="pages">
+		 <a href="Signup.html"><p class="Signup" style="color: grey; font-size:20px;">Sign Up</p></a>
+		 <a href="Signin.html" class="signin-signup-page"><p class="Signin-txt" style="color: slateblue;font-size:22px;">Sign In</p></a>
+	 </div>
+</div>
+
+
+<!--Form -->
+<div class="address-form">
+	 <form action="#">
+
+		<div class="form-group">
+			<label for="email">Email</label>
+			<input type="email" class="form-control" placeholder="Enter the email" id="email">
+		</div>
+		<div class="form-group">
+      <label for="password">Password</label>
+      <input id="password-field" type="password" name="password" class="form-control" placeholder="Enter your password" id="password">
+      <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary" style="font-weight:bold;font-style:Roboto">Sign In</button>
+		</div>
+
+	</form>
+<div style="margin-top:30px;">
+<hr class="OR-line" style="margin-left: 25px;"><p class="ORtxt"> OR </p> <hr class="OR-line">
+</div>
+
+<div class="sign-in-icons" style="margin-top:30px; margin-bottom:30px;">
+
+<a href=""><img class="logo-left" src="https://img.icons8.com/color/48/000000/google-logo.png" /></a>
+<a href=""><img style="margin-left:50px;" src="https://img.icons8.com/fluent/48/000000/facebook-new.png"/></a>
+<a href=""><img style="margin-left:50px;" src="https://img.icons8.com/metro/48/000000/mac-os.png"/></a>
+</div>
+
+</div>
+
+
+
+	<!--Form Ends -->
+
+
+<script type="text/javascript" src="Header.js"></script>
+
+<script type="text/javascript">
+
+$(".toggle-password").click(function () {
+  $(this).toggleClass("fa-eye fa-eye-slash");
+  var input = $($(this).attr("toggle"));
+  if (input.attr("type") == "password") {
+    input.attr("type", "text");
+  } else {
+    input.attr("type", "password");
+  }
+});
+
+</script>
+
+</body>
+</html>

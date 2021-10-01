@@ -1,0 +1,328 @@
+/* Global View aka Desktop View */
+
+body {
+    font-family: 'Asap', sans-serif;
+    color: white;
+    background-color:white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.col{
+  flex-grow: 0;
+}
+
+.sidebar{
+    z-index: 1;
+}
+
+.search-desktop input[type=text]{
+    margin-left: 179px;
+    margin-top: 50px;
+    width: 433px;
+    height:52px;
+    border-radius:10px;
+    background: #f0ecec;
+    border: none;
+    padding-left: 20px;
+
+}
+
+.search-desktop button {
+    margin-left: -40px;
+    border: none;
+    color: #9B9B9B;
+
+}
+
+.search-desktop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-mobile {
+    display: none;
+}
+
+select {
+    margin-top: 185px;
+    border: 1px solid #555555;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align-last:center ;
+}
+
+select.select-1 {
+    margin-left: -280px;
+    margin-top: 50px;
+    width: 150px;
+    height: 52px;
+}
+
+select.select-2 {
+    width: 203px;
+    margin-top: 50px;
+    height: 52px;
+    margin-left: -460px;
+}
+
+.container {
+    margin: 0 169px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+
+.col {
+    width: 218px;
+    height: 308px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+.col img {
+    width: 120px;
+    height: 120px;
+    margin-left: 49px;
+    margin-top: 0px;
+    background: #C4C4C4;
+    align-items: center;
+    border-radius: 150px;
+    justify-content: center;
+}
+
+.col i {
+    margin-top: 12px;
+    margin-left: 180px;
+    cursor: pointer;
+}
+
+p.product {
+    position: center;
+    margin-left: 80px;
+    width: 100px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    display: flex;
+    color: #4B597B;
+    margin-top: -6px;
+}
+
+.price {
+    color: #08BB30;
+    margin-left: 75px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    margin-top: -25px;
+}
+
+p.des-product{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    display: flex;
+    color: #838383;
+    margin-top: -25px;
+    margin-left: 30px;
+    justify-content: center;
+
+}
+
+.button {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    background: linear-gradient(180deg, #3EFF68 0%, #08BB30 100%);
+    border-radius: 50px;
+    position: absolute;
+    width: 145px;
+    height: 46px;
+    margin-left: 37px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+
+
+/* Mobile View */
+@media (max-width: 500px){
+    body {
+        font-family: 'Asap', sans-serif;
+        color: white;
+        background-color: white;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .container {
+        margin: 0 25px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 28px;
+    }
+
+
+    .search-mobile input[type=text]{
+        margin-left: 12px;
+        margin-top: 104px;
+        width: 363px;
+        height:52px;
+        border-radius:10px;
+        background: #f0ecec;
+        border: none;
+        padding-left: 20px;
+
+    }
+
+    .search-mobile button {
+        margin-left: -40px;
+        border: none;
+        color: #9B9B9B;
+
+    }
+
+    .search-mobile {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .col {
+        width: 135px;
+        height: 209.1px;
+        margin-right: 12px;
+        margin-bottom: 31.9px;
+        background: #FFFFFF;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+        border-radius: 15px;
+    }
+
+    .col i {
+        margin-top: 12px;
+        margin-left: 110px;
+        cursor: pointer;
+    }
+
+    .col img {
+        width: 82px;
+        height: 72px;
+        margin-left: 33px;
+        margin-top: 0px;
+        background: #C4C4C4;
+        align-items: center;
+    }
+
+    p.product {
+        position: center;
+        margin-left: 55px;
+        width: 50px;
+        height: 32px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 32px;
+        display: flex;
+        color: #4B597B;
+        margin-top: -5px;
+    }
+
+    .price {
+        color: #08BB30;
+        margin-left: 55px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 32px;
+        margin-top: -20px;
+    }
+
+    p.des-product{
+        position: absolute;
+        width: 150px;
+        height: 32px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 8px;
+        line-height: 32px;
+        display: flex;
+        text-align: center;
+        color: #838383;
+        margin-left: 50px;
+        justify-content: center;
+        margin-left: -6px;
+    }
+
+    button.button {
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        background: linear-gradient(180deg, #3EFF68 0%, #08BB30 100%);
+        border-radius: 50px;
+        position: absolute;
+        width: 90.51px;
+        height: 31px;
+        margin-left: 27px;
+        border: none;
+        outline: 0;
+        cursor: pointer;
+        margin-top: -6px;
+        justify-content: center;
+
+    }
+
+    .search-desktop {
+        display: none;
+    }
+
+    select {
+        margin-top: 180px;
+    }
+
+    select.select-1-mobile {
+        width: 92px;
+        height: 39px;
+        margin-left: -380px
+    }
+
+    select.select-2-mobile {
+        width: 119px;
+        height: 39px;
+        margin-left: -110px
+    }
+
+
+}
