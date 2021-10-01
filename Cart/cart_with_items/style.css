@@ -1,0 +1,593 @@
+.border {
+    position: absolute;
+    width: 485px;
+    height: 430px;
+    left: 500px;
+    top: 233px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    border-radius: 20px;
+}
+
+hr {
+    position: absolute;
+    margin-left: 351px;
+    margin-top: 432px;
+    width: 485px;
+    border: 1px solid #C5C5C5;
+}
+
+.img-1 {
+    position: absolute;
+    width: 167px;
+    height: 167px;
+    left: 24px;
+    top: 24px;
+}
+
+.name-1 {
+    position: absolute;
+    width: 55px;
+    height: 32px;
+    left: 220px;
+    top: 0px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4B597B;
+}
+
+.des-1 {
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 220px;
+    top: 36px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #838383;
+}
+
+.price-1 {
+    position: absolute;
+    width: 57px;
+    height: 32px;
+    left: 220px;
+    top: 72px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    display: flex;
+    align-items: center;
+    color: rgb(18, 211, 44);
+}
+
+.size-1 {
+    position: absolute;
+    width: 52px;
+    height: 32px;
+    left: 220px;
+    top: 109px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4E4E4E;
+}
+
+.del-1 {
+    position: absolute;
+    left: 418px;
+    top: 34px;
+    width: 14px;
+    cursor: pointer;
+}
+
+.del-2 {
+    position: absolute;
+    left: 418px;
+    top: 249px;
+    width: 14px;
+    cursor: pointer;
+}
+
+.img-2 {
+    position: absolute;
+    width: 167px;
+    height: 167px;
+    left: 24px;
+    bottom: 24px;
+}
+
+.name-2 {
+    position: absolute;
+    width: 55px;
+    height: 32px;
+    left: 220px;
+    top: 215px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4B597B;
+}
+
+.des-2 {
+    position: absolute;
+    width: 108px;
+    height: 32px;
+    left: 220px;
+    top: 251px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #838383;
+}
+
+.price-2 {
+    position: absolute;
+    width: 57px;
+    height: 32px;
+    left: 220px;
+    top: 287px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    display: flex;
+    align-items: center;
+    color: rgb(18, 211, 44);
+}
+
+.size-2 {
+    position: absolute;
+    width: 52px;
+    height: 32px;
+    left: 220px;
+    top: 324px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4E4E4E;
+}
+
+.total {
+    position: absolute;
+    width: 155px;
+    height: 32px;
+    left: 500px;
+    top: 680px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #4B597B;
+    
+}
+
+.total_price {
+    position: absolute;
+    width: 57px;
+    height: 32px;
+    left: 660px;
+    top: 681px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    /* identical to box height, or 178% */
+    
+    display: flex;
+    align-items: center;
+    color: rgb(18, 211, 44);
+}
+
+.proceed_to_buy {
+        position: absolute;
+        width: 156px;
+        height: 46px;
+        left: 663px;
+        top: 750px;
+        
+        background: linear-gradient(180deg, #3EFF68 0%, #08BB30 100%);
+        border-radius: 50px;
+        color: white;
+        border: none;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 32px;
+        cursor: pointer;
+}
+
+.quantity_number-1 span{
+    border:1px solid black;   
+    max-width: 10px;
+    padding: 5px;
+    max-height: 4px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+.quantity_number-1 {
+    margin-top: 155px;
+    margin-left: 220px;
+}
+
+.quantity_number-2 {
+    margin-top: 195px;
+    margin-left: 220px;
+}
+
+.quantity_number-2 span{
+    border:1px solid black;   
+    max-width: 10px;
+    padding: 5px;
+    max-height: 4px;
+    margin-right: 10px;
+    position: relative;
+    top: 10px;
+}
+
+
+@media(max-width : 900px) {
+    .border {
+        width: 259px;
+        height: 270px;
+        left: 57px;
+        top: 128px;
+    }
+
+    hr {
+        margin-left: 70px;
+        margin-top: 245px;
+        width: 259px;
+        border: 1px solid #C5C5C5;
+    }
+    .img-1 {
+        position: absolute;
+        width: 91px;
+        height: 91px;
+        left: 16px;
+        top: 24px;
+    }
+    
+    .name-1 {
+        position: absolute;
+        width: 55px;
+        height: 32px;
+        left: 121px;
+        top: 0px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #4B597B;
+    }
+    
+    .des-1 {
+        position: absolute;
+        width: 108px;
+        height: 32px;
+        left: 121px;
+        top: 22px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 32px;
+        /* identical to box height, or 229% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #838383;
+    }
+    
+    .price-1 {
+        position: absolute;
+        width: 57px;
+        height: 32px;
+        left: 121px;
+        top: 40px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        display: flex;
+        align-items: center;
+        color: rgb(18, 211, 44);
+    }
+    
+    .size-1 {
+        position: absolute;
+        width: 52px;
+        height: 32px;
+        left: 121px;
+        top: 58px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 32px;
+        /* identical to box height, or 229% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #4E4E4E;
+    }
+    
+    .del-1 {
+        position: absolute;
+        left: 226px;
+        top: 30px;
+        width: 14px;
+        cursor: pointer;
+    }
+    
+    .del-2 {
+        position: absolute;
+        left: 226px;
+        top: 160px;
+        width: 14px;
+        cursor: pointer;
+    }
+    
+    .img-2 {
+        position: absolute;
+        width: 91px;
+        height: 91px;
+        left: 16px;
+        bottom: 24px;
+    }
+    
+    .name-2 {
+        position: absolute;
+        width: 55px;
+        height: 32px;
+        left: 124px;
+        top: 132px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #4B597B;
+    }
+    
+    .des-2 {
+        position: absolute;
+        width: 108px;
+        height: 32px;
+        left: 124px;
+        top: 154px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 32px;
+        /* identical to box height, or 229% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #838383;
+    }
+    
+    .price-2 {
+        position: absolute;
+        width: 57px;
+        height: 32px;
+        left: 124px;
+        top: 172px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        display: flex;
+        align-items: center;
+        color: rgb(18, 211, 44);
+    }
+    
+    .size-2 {
+        position: absolute;
+        width: 52px;
+        height: 32px;
+        left: 124px;
+        top: 190px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 32px;
+        /* identical to box height, or 229% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #4E4E4E;
+    }
+    
+    .total {
+        position: absolute;
+        width: 155px;
+        height: 32px;
+        left: 76px;
+        top: 406px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        display: flex;
+        align-items: center;
+        
+        color: #4B597B;
+        
+    }
+    
+    .total_price {
+        position: absolute;
+        width: 57px;
+        height: 32px;
+        left: 230px;
+        top: 408px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 32px;
+        /* identical to box height, or 178% */
+        
+        display: flex;
+        align-items: center;
+        color: rgb(18, 211, 44);
+    }
+    
+    .proceed_to_buy {
+            position: absolute;
+            width: 113px;
+            height: 30px;
+            left: 130px;
+            top: 465px;
+            
+            background: linear-gradient(180deg, #3EFF68 0%, #08BB30 100%);
+            border-radius: 50px;
+            color: white;
+            border: none;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 32px;
+            cursor: pointer;
+    }
+
+    .quantity_number-1 span{
+        border:1px solid black;   
+        max-width: 7px;
+        padding: 1px;
+        max-height: 4px;
+        margin-right: 10px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .quantity_number-1 {
+        margin-top: 90px;
+        margin-left: 123px;
+    }
+    
+    .quantity_number-2 {
+        margin-top: 115px;
+        margin-left: 123px;
+    }
+    
+    .quantity_number-2 span{
+        border:1px solid black;   
+        max-width: 7px;
+        padding: 1px;
+        max-height: 4px;
+        margin-right: 10px;
+        position: relative;
+        top: 10px;   
+    }
+}
